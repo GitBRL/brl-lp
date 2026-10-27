@@ -274,7 +274,6 @@ const $guests = $('.guest-list');
 if ($guests) {
   // miniatura que segue o cursor sobre a lista
   const $preview = $('.guest-preview');
-  const $previewImg = $('img', $preview);
   const moveX = gsap.quickTo($preview, 'x', { duration: .5, ease: 'power3' });
   const moveY = gsap.quickTo($preview, 'y', { duration: .5, ease: 'power3' });
 
